@@ -1,0 +1,321 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+html,
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+section {
+  height: 500px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+.mother-nature {
+  text-align: center;
+  padding-top: 1.5px;
+  padding-bottom: 25px;
+}
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+footer {
+  background-color: rgb(14, 9, 9);
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+nav {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+li {
+  background-color: #dda0dd;
+  border-radius: 2px;
+  padding: 6px;
+  /* width: 200px; */
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  margin: 0;
+}
+.about-page {
+  padding: 80px;
+}
+.buy-now {
+  padding-top: 200px;
+}
+.plant-one {
+  font-family: "Pacifico", cursive;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 2px;
+}
+.about-p {
+  background-color: #f3ddf3;
+  margin: 22px;
+}
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+.price {
+  font-weight: bold;
+}
+.navbar {
+  margin: 0px;
+}
+.hero-area {
+  background-color: #f3ddf3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  width: 1263.33px;
+  height: 550px;
+}
+
+.cover-style {
+  position: relative;
+  width: 450px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.hero-text {
+  background-color: #dda0dd;
+  padding: 30px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 10px;
+  margin-left: 170px;
+}
+.card-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+  border-color: #1c1d25;
+}
+.button:hover {
+  background-color: #ef744b;
+}
+.button:active {
+  background-color: #898989;
+  color: #808080;
+}
+.socials {
+  padding-top: 20px;
+}
+.logo {
+  margin: 2px;
+}
+.social-main {
+  margin: 20px;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+.sub-section-new {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+h2 {
+  font-size: 40px;
+}
+
+.headshot {
+  width: 200px;
+  border-radius: 150px;
+}
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+.project-card1 {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 10px grey;
+  margin: 10px;
+}
+.project-container1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and(max-width: 1000px) {
+  .project-container1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.project-card2,
+project-card2 {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 10px grey;
+  margin: 10px;
+}
+.project-container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and(max-width: 1000px) {
+  .project-container1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.project-image {
+  margin-top: 40px;
+  width: 200px;
+}
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.hamburger {
+  display: none;
+}
+.hamburger :focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+  }
+  ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0px;
+    align-self: flex-end;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(8, 0, 0);
+  }
+  .logo {
+    display: none;
+  }
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+html {
+  position: relative;
+  height: 1000px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+  body {
+    margin-bottom: 700px;
+  }
+  .footer {
+    height: 500px;
+  }
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: 1c1d25;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #aaa;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+
+footer .form-control {
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  color: #d1d2d2;
+  padding: 0.7em 1em;
+}
+.col-6 {
+  padding-left: 250px;
+}
+.text-md-right {
+  font-size: 30px;
+}
